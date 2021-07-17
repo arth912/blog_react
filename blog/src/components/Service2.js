@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Threading from '../images/threading.jpg'
-import MakeUp from '../images/makeup.jpg'
-import Hair from '../images/hair.jpg'
+import Facial from '../images/facial.jpg'
+import Therapy from '../images/the.jpg'
+import Bleach from '../images/bleach.jpg'
 
-export default class Service extends Component {
+export default class Service2 extends Component {
   render() {
     return (
       <div>
@@ -15,7 +15,7 @@ export default class Service extends Component {
                 <div class='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
                   <img
                     class='lg:h-48 md:h-36 w-full object-cover object-center'
-                    src={Threading}
+                    src={Facial}
                     alt='blog'
                   ></img>
                   <div class='p-6'>
@@ -68,7 +68,7 @@ export default class Service extends Component {
                 <div class='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
                   <img
                     class='lg:h-48 md:h-36 w-full object-cover object-center'
-                    src={MakeUp}
+                    src={Therapy}
                     alt='blog'
                   ></img>
                   <div class='p-6'>
@@ -121,7 +121,7 @@ export default class Service extends Component {
                 <div class='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
                   <img
                     class='lg:h-48 md:h-36 w-full object-cover object-center'
-                    src={Hair}
+                    src={Bleach}
                     alt='blog'
                   ></img>
                   <div class='p-6'>
