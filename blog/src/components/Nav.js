@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
-
+import Product from './Product'
+import About from './About'
+import Review from './Review'
+import App from '../App'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 export default class Nav extends Component {
   render() {
     return (
@@ -32,27 +36,42 @@ export default class Nav extends Component {
                         105 76 182 76 107 0 192 -58 288 -197 107 -157 178 -311 407 -886 152 -383
                         204 -505 211 -499 1 2 23 55 48 118 112 288 243 770 491 1810 48 201 100 406
                         116 456 16 50 29 96 29 101 0 25 -471 61 -615 47z'
-                                          />
-                                          <path
-                                            d='M3656 4588 c-3 -18 -8 -80 -11 -138 -3 -58 -21 -366 -40 -685 -49
+                  />
+                  <path
+                    d='M3656 4588 c-3 -18 -8 -80 -11 -138 -3 -58 -21 -366 -40 -685 -49
                         -828 -55 -972 -55 -1420 0 -406 8 -603 36 -865 30 -287 42 -346 124 -610 43
                         -140 86 -281 95 -313 9 -31 20 -57 24 -57 15 0 166 118 265 206 54 49 144 141
                         198 204 641 744 778 1787 349 2665 -160 327 -380 606 -656 828 -94 76 -300
                         217 -317 217 -4 0 -9 -15 -12 -32z'
-                                          />
-                                        </g>
-                                      </svg>
+                  />
+                </g>
+              </svg>
 
-              <span class='ml-3 text-xl'>Modish Parlour</span>
+              <span class='ml-3 text-xl'>Modish Makeover</span>
             </a>
             <nav class='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-              <a class='mr-5 hover:text-gray-100'>First Link</a>
-              <a class='mr-5 hover:text-gray-100'>Second Link</a>
-              <a class='mr-5 hover:text-gray-100'>Third Link</a>
-              <a class='mr-5 hover:text-gray-100'>Fourth Link</a>
+              <Router>
+                <Link to='/' class='mr-5 hover:text-gray-600'>
+                  Home
+                </Link>
+                <Link to='/Product' class='mr-5 hover:text-gray-600'>
+                  Products
+                </Link>
+                <Link to='/About' class='mr-5 hover:text-gray-600'>
+                  About Us
+                </Link>
+                <Link to='/Review' class='mr-5 hover:text-gray-600'>
+                  Review
+                </Link>
+
+                <Route path='../App' exact component={App} />
+                <Route path='/Product' component={Product} />
+                <Route path='/About' component={About} />
+                <Route path='/Review' component={Review} />
+              </Router>
             </nav>
             <button class='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0'>
-              Button
+              Book Appointment
               <svg
                 fill='none'
                 stroke='currentColor'
