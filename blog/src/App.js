@@ -8,6 +8,7 @@ import Heroo from './components/Heroo.js'
 import Gallery from './components/Gallery'
 import Testimonial from './components/Testimonial'
 import Location from './components/Location'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Testimonial/>
       <Gallery/>
       <Location/>
+      <Footer/>
     </div>
   );
 }

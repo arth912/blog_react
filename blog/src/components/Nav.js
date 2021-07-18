@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Product from './Product'
-import About from './About'
+import About from '../pages/About'
 import Review from './Review'
 import App from '../App'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
@@ -66,7 +66,7 @@ export default class Nav extends Component {
 
                 <Route path='../App' exact component={App} />
                 <Route path='/Product' component={Product} />
-                <Route path='/About' component={About} />
+                <Route path='../pages/About' component={About} />
                 <Route path='/Review' component={Review} />
               </Router>
             </nav>
