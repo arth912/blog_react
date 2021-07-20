@@ -10,13 +10,13 @@ import Location from '../components/Location'
 export const Home = () => {
     return (
         <div>
-            <Heroo/>
-            <Service name1="Threading" name2="Make Up" name3="Hair Treatment"  />
-            <Service1 name1="Manicure" name2="Pedicure" name3="Waxing"  />
-            <Service2 name1="Facials" name2="Rejuvenation Therapies" name3="Clean Up / Bleach"  />
-            <Testimonial/>
-            <Product/>
-            <Location/>
+            <Heroo />
+            <Service name1="Threading" name2="Make Up" name3="Hair Treatment" />
+            <Service1 name1="Manicure" name2="Pedicure" name3="Waxing" />
+            <Service2 name1="Facials" name2="Rejuvenation Therapies" name3="Clean Up / Bleach" />
+            <Testimonial />
+            <Product />
+            <Location />
         </div>
     )
 }

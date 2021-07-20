@@ -46,19 +46,19 @@ export default class Nav extends Component {
               <span class='ml-3 text-xl'>Modish Makeover</span>
             </a>
             <nav class='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-                  <Link to='/' class='mr-5 hover:text-gray-600'>
-                    Home
-                  </Link>
-                  <Link to='/Gallery' class='mr-5 hover:text-gray-600'>
-                    Gallery
-                  </Link>
-                  <Link to='/About' class='mr-5 hover:text-gray-600'>
-                    About Us
-                  </Link>
-                  <Link to='/Review' class='mr-5 hover:text-gray-600'>
-                    Review
-                  </Link>
-                
+              <Link to='/' class='mr-5 hover:text-gray-600'>
+                Home
+              </Link>
+              <Link to='/Gallery' class='mr-5 hover:text-gray-600'>
+                Gallery
+              </Link>
+              <Link to='/About' class='mr-5 hover:text-gray-600'>
+                About Us
+              </Link>
+              <Link to='/Review' class='mr-5 hover:text-gray-600'>
+                Review
+              </Link>
+
             </nav>
             <button class='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0'>
               Book Appointment

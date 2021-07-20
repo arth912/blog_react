@@ -3,8 +3,8 @@ import Product from '../components/Product'
 export const Gallery = () => {
     return (
         <div>
-            <Product/>
-            
+            <Product />
+
         </div>
     )
 }
