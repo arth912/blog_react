@@ -7,10 +7,23 @@ export default class Service extends Component {
   render() {
     return (
       <div>
+         <div class="container mx-auto flex flex-col  justify-center items-center">
+          <div class='w-full md:w-2/3 flex flex-col mb-16 items-center font-bold text-center '>
+              <h1 class='title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 '>
+                Our Services
+              </h1>
+              <p class='mb-8 leading-relaxed font-medium text-gray-900'>
+                Kickstarter biodiesel roof party wayfarers cold-pressed. Palo
+                santo live-edge tumeric scenester copper mug flexitarian. Prism
+                vice offal plaid everyday carry. Gluten-free chia VHS squid
+                listicle artisan.
+              </p>
+            </div>
+         </div>
+        
         <section class='text-gray-600 body-font -mt-32 px-16'>
           <div class='container px-5 py-24 mx-auto'>
             <div class='flex flex-wrap -m-4'>
-
               <div class='p-4 md:w-1/3'>
                 <div class='h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden'>
                   <img
@@ -23,7 +36,7 @@ export default class Service extends Component {
                       CATEGORY
                     </h2>
                     <h1 class='title-font text-xl font-medium text-gray-900 mb-3'>
-                    {this.props.name1}
+                      {this.props.name1}
                     </h1>
                     <p class='leading-relaxed mb-3'>
                       Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -76,7 +89,7 @@ export default class Service extends Component {
                       CATEGORY
                     </h2>
                     <h1 class='title-font text-xl font-medium text-gray-900 mb-3'>
-                    {this.props.name2}
+                      {this.props.name2}
                     </h1>
                     <p class='leading-relaxed mb-3'>
                       Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -129,7 +142,7 @@ export default class Service extends Component {
                       CATEGORY
                     </h2>
                     <h1 class='title-font text-xl font-medium text-gray-900 mb-3'>
-                    {this.props.name3}
+                      {this.props.name3}
                     </h1>
                     <p class='leading-relaxed mb-3'>
                       Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -169,7 +182,6 @@ export default class Service extends Component {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </section>

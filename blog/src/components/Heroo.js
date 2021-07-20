@@ -11,10 +11,7 @@ export default class Heroo extends Component {
       <p class="mb-8 leading-relaxed font-medium text-gray-900">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p> 
     </div>
     <img class="lg:w-full md:w-3/6 w-5/6 mb-10 object-cover object-center rounded opacity-70" alt="hero" src="https://source.unsplash.com/1660x800/?beautysalon"></img>
-    <div class="w-full md:w-2/3 flex flex-col mb-16 items-center font-bold text-center ">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 ">Our Services</h1>
-      <p class="mb-8 leading-relaxed font-medium text-gray-900">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p> 
-    </div>
+    
   </div>
 </section>
                 
