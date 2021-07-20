@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Button,Modal, Carousel, Navbar, NavDropdown,Nav, Form, FormControl, ModalBody, ModalFooter } from 'react-bootstrap'
 import pic1 from '../img/pic1.jpg'
 import Thanks from '../img/Thanks.jpg'
-import lol from '../img/lol.jpg'
+
 
 export default class Bootstrapinreact extends Component {
     constructor() {

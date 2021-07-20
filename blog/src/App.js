@@ -1,29 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-import Service from './components/Service.js'
-import Service1 from './components/Service1'
-import Service2 from './components/Service2'
+import './App.css'
 import Nav from './components/Nav.js'
-import Heroo from './components/Heroo.js'
-import Gallery from './components/Gallery'
-import Testimonial from './components/Testimonial'
-import Location from './components/Location'
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+import { BrowserRouter as Router, Route, Redirect,Switch } from 'react-router-dom'
+import Home from './pages/Home'
+import Gallery from './pages/Gallery'
+import About from './pages/About'
+import Review from './pages/Review'
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Heroo/>
-      <Service name1="Threading" name2="Make Up" name3="Hair Treatment"  />
-      <Service1 name1="Manicure" name2="Pedicure" name3="Waxing"  />
-      <Service2 name1="Facials" name2="Rejuvenation Therapies" name3="Clean Up / Bleach"  />
-      <Testimonial/>
-      <Gallery/>
-      <Location/>
-      <Footer/>
+    <div className='App'>
+      
+      {/* <Home/> */}
+      <Router>
+        <Nav />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/Gallery' component={Gallery} />
+            <Route path='/About' component={About} />
+            <Route path='/Review' component={Review} />
+          </Switch>
+        <Footer />
+      </Router>
+
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

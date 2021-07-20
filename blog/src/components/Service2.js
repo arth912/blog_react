@@ -7,7 +7,7 @@ export default class Service2 extends Component {
   render() {
     return (
       <div>
-        <section class='text-gray-600 body-font -mt-32'>
+        <section class='text-gray-600 body-font -mt-32 px-16'>
           <div class='container px-5 py-24 mx-auto'>
             <div class='flex flex-wrap -m-4'>
 

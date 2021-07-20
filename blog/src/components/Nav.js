@@ -1,9 +1,5 @@
 import React, { Component } from 'react'
-import Product from './Product'
-import About from '../pages/About'
-import Review from './Review'
-import App from '../App'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 export default class Nav extends Component {
   render() {
     return (
@@ -50,25 +46,19 @@ export default class Nav extends Component {
               <span class='ml-3 text-xl'>Modish Makeover</span>
             </a>
             <nav class='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-              <Router>
-                <Link to='/' class='mr-5 hover:text-gray-600'>
-                  Home
-                </Link>
-                <Link to='/Product' class='mr-5 hover:text-gray-600'>
-                  Products
-                </Link>
-                <Link to='/About' class='mr-5 hover:text-gray-600'>
-                  About Us
-                </Link>
-                <Link to='/Review' class='mr-5 hover:text-gray-600'>
-                  Review
-                </Link>
-
-                <Route path='../App' exact component={App} />
-                <Route path='/Product' component={Product} />
-                <Route path='../pages/About' component={About} />
-                <Route path='/Review' component={Review} />
-              </Router>
+                  <Link to='/' class='mr-5 hover:text-gray-600'>
+                    Home
+                  </Link>
+                  <Link to='/Gallery' class='mr-5 hover:text-gray-600'>
+                    Gallery
+                  </Link>
+                  <Link to='/About' class='mr-5 hover:text-gray-600'>
+                    About Us
+                  </Link>
+                  <Link to='/Review' class='mr-5 hover:text-gray-600'>
+                    Review
+                  </Link>
+                
             </nav>
             <button class='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0'>
               Book Appointment
