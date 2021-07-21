@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero-bg': "url('https://source.unsplash.com/1660x800/?beautysalon')",
+        'hero-image': "url('https://source.unsplash.com/1660x800/?beautysalon')",
        })
 
     },

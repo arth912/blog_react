@@ -46,16 +46,16 @@ export default class Nav extends Component {
               <span class='ml-3 text-xl'>Modish Makeover</span>
             </a>
             <nav class='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-              <Link to='/' class='mr-5 hover:text-gray-600'>
+              <Link to='/' class='mr-5 hover:text-gray-600' activeClassName="text-red-500">
                 Home
               </Link>
-              <Link to='/Gallery' class='mr-5 hover:text-gray-600'>
+              <Link to='/Gallery' class='mr-5 hover:text-gray-600' activeClassName="text-red-500">
                 Gallery
               </Link>
-              <Link to='/About' class='mr-5 hover:text-gray-600'>
+              <Link to='/About' class='mr-5 hover:text-gray-600' activeClassName="text-red-500">
                 About Us
               </Link>
-              <Link to='/Review' class='mr-5 hover:text-gray-600'>
+              <Link to='/Review' class='mr-5 hover:text-gray-600' activeClassName="text-red-500">
                 Review
               </Link>
 

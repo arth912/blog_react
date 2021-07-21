@@ -1,7 +1,7 @@
 import './App.css'
 import Nav from './components/Nav.js'
 import Footer from './components/Footer'
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route,  Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import About from './pages/About'
